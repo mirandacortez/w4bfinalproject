@@ -1,0 +1,87 @@
+body {
+    background-color: #231F1F;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    height: 150px;
+    width: auto;
+    margin-left: 30px;
+}
+
+header {
+    height: 150px;
+    width: 100%;
+}
+    
+#navbar {
+    background-color: #231F1F;
+    overflow: hidden;
+    height: 150px;
+    width: 100%; 
+}
+
+#navbar a {
+    float: right;
+    display: block;
+    padding: 6px 15px;
+    margin-top: 63px;
+    color: #dec2ba;
+    text-decoration: none; 
+    /* NTS: ^ this gets rid of the underline from the hyperlink */
+    text-align: center;
+    font-size: 18px;
+}
+
+#navbar a:hover {
+    background-color: #dec2ba;
+    color: #231F1F;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.sticky {
+    position: fixed;
+}
+
+#content {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+}
+
+.largecontentframe {
+    width: 25%;
+    height: 600px;
+    border: 10px solid #dec2ba;
+    box-shadow: 5px 10px #c2a79f;
+    background-color: #dec2ba;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: inline-block;
+    margin-left: 25px;
+}
+
+footer {
+    margin: 15px;
+}
+#socialmedia i {
+    color: #dec2ba;
+    font-size: 25px;
+    padding: 15px;
+    float: right;
+}
+
+#socialmedia i:hover{
+    background-color: #dec2ba;
+    color: #231F1F;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
