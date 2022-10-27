@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #231F1F;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+}
+
+#logo {
+    height: 150px;
+    width: auto;
+}
+
+.pinktext {
+    color: #dec2ba;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.blacktext {
+    color: #231F1F;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-size: 55px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 2px;
+    text-shadow: 2px 2px grey;
+}
+
+header {
+    height: 150px;
+    width: 100%;
+}
+    
+#navbar {
+    background-color: #231F1F;
+    overflow: hidden;
+    height: 150px;
+    width: 100%;    
+    padding: 0 20px;
+}
+
+#navbar a {
+    float: right;
+    display: block;
+    padding: 6px 15px;
+    margin-top: 63px;
+    text-decoration: none; 
+    /* NTS: ^ this gets rid of the underline from the hyperlink */
+    font-size: 18px;
+}
+
+#navbar a:hover {
+    background-color: #dec2ba;
+    color: #231F1F;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.sticky {
+    position: fixed;
+}
+
+h1{
+    font-size: 75px;
+    text-shadow: 2px 2px #c2a79f;
+}
+
+#TheGrumble {
+    float:right;
+    display: block;
+}
+
+.pictureblock {
+    width: 30%;
+    height: 400px;
+    background-color: #dec2ba;
+    display: inline-block;
+    text-align: center;
+    margin: 10px 10px;
+    vertical-align: top;
+}
+
+.textblock {
+    width: 30%;
+    height: 150px;
+    background-color: #dec2ba;
+    display: inline-block;
+    text-align: center;
+    margin: 10px 10px;
+}
+
+.frame {
+    border: 10px solid #dec2ba;
+    box-shadow: 5px 5px #c2a79f;
+    background-color: #dec2ba;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.center {
+    text-align: center;
+}
+
+#socialicons i {
+    color: #dec2ba;
+    font-size: 30px;
+    padding: 15px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+#socialicons i:hover{
+    background-color: #dec2ba;
+    color: #231F1F;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#checkusout {
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+.meet {
+    font-size: auto;
+    width: 20%;
+    height: 25px;
+    margin-left: 55px;
+    font-weight: bolder;
+}
+
+#portraits {
+    display: block;
+    margin: auto;
+}
+
+.feature {
+    vertical-align: middle;  
+    text-align: center;  
+}
+

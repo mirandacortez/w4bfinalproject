@@ -1,13 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #231F1F;
     margin: 0;
     padding: 0;
 }
 
-.logo {
+.container {
+    width: 100%;
+    height: auto;
+}
+
+#logo {
     height: 150px;
     width: auto;
-    margin-left: 30px;
+}
+
+.pinktext {
+    color: #dec2ba;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.blacktext {
+    color: #dec2ba;
+    font-family: 'Montserrat', sans-serif;
 }
 
 header {
@@ -19,7 +37,8 @@ header {
     background-color: #231F1F;
     overflow: hidden;
     height: 150px;
-    width: 100%; 
+    width: 100%;    
+    padding: 0 20px;
 }
 
 #navbar a {
@@ -27,10 +46,8 @@ header {
     display: block;
     padding: 6px 15px;
     margin-top: 63px;
-    color: #dec2ba;
     text-decoration: none; 
     /* NTS: ^ this gets rid of the underline from the hyperlink */
-    text-align: center;
     font-size: 18px;
 }
 
@@ -47,15 +64,16 @@ header {
     position: fixed;
 }
 
-#content {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 10%;
+h1{
+    font-size: 90px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 2px 2px #c2a79f;
 }
 
-.largecontentframe {
-    width: 25%;
-    height: 600px;
+/* .contentframe {
     border: 10px solid #dec2ba;
     box-shadow: 5px 10px #c2a79f;
     background-color: #dec2ba;
@@ -64,24 +82,39 @@ header {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     display: inline-block;
-    margin-left: 25px;
+} */
+
+.center {
+    text-align: center;
 }
 
-footer {
-    margin: 15px;
-}
-#socialmedia i {
+#socialicons i {
     color: #dec2ba;
-    font-size: 25px;
+    font-size: 30px;
     padding: 15px;
-    float: right;
+    margin-bottom: 25px;
+    margin-top: 10px;
 }
 
-#socialmedia i:hover{
+#socialicons i:hover{
     background-color: #dec2ba;
     color: #231F1F;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+}
+
+#checkusout {
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+.hero {
+    background-image: url(../img/BlackHeroImage.png);
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
